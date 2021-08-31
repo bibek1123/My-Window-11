@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+}
+.icons{
+    color: white;
+}
+
+.taskbar{
+    position: absolute;
+    bottom: 0rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f3f3f3;
+    z-index: 100;
+}
+
+.startmenu{
+    position: absolute;
+    bottom: -43rem;
+    /* bottom: -43rem;  for open and close taskbar */
+    width: 100%;
+    text-align: center;
+    transition: all .3s ease-in;
+}
+
+.right{
+    position: absolute;
+    right: 0rem;
+    margin: .2rem;
+    height: 85%;
+}
+
